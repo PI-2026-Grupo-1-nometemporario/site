@@ -51,8 +51,7 @@ padding: 0.3%;
 border-radius: 10px;
 }
 /*FIM*/
-
-
+/*Lucca Hillebrand Carraro*/
 .Hbody {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -65,6 +64,7 @@ border-radius: 10px;
     background-color: #114174;
     color: white;
     padding: 20px;
+   
 }
 
 .Hmain {
@@ -118,3 +118,6 @@ border-radius: 10px;
 .Hbody::after {
     right: 0;
 }
+/*FIM*/
+
+
