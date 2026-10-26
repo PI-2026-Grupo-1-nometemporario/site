@@ -51,4 +51,136 @@
     padding: 0.3%;
     border-radius: 10px;
     }
+/* CARROSSEL DE IMAGENS */
+.Mcarrossel {
+    position: relative;
+    width: 100%;
+    max-width: 1240px;
+    aspect-ratio: 1240 / 720;
+    margin: 3% auto 6%;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    background-color: #1E293B;
+    box-shadow: 0 8px 24px #0004;
+}
+
+.Mcarrossel-imagens {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.Mcarrossel-imagens img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Mcarrossel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background-color: #0F172Acc;
+    color: #F8FAFC;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Mcarrossel-btn:hover {
+    background-color: #334155;
+}
+
+.Manterior {
+    left: 15px;
+}
+
+.Mproximo {
+    right: 15px;
+}
+
+.Mcarrossel-indicadores {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.Mindicador {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #94A3B8;
+    cursor: pointer;
+}
+
+.Mindicador.ativo {
+    background-color: #F8FAFC;
+    transform: scale(1.2);
+}
+
+.Mcarrossel button:focus-visible {
+    outline: 3px solid #38BDF8;
+    outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+    .Mcarrossel {
+        border-radius: 8px;
+    }
+
+    .Mcarrossel-btn {
+        padding: 7px 10px;
+        font-size: 18px;
+    }
+
+    .Manterior {
+        left: 8px;
+    }
+
+    .Mproximo {
+        right: 8px;
+    }
+
+    .Mcarrossel-indicadores {
+        bottom: 10px;
+    }
+}
+/* Esconde os radio inputs */
+.Mcarrossel input[type="radio"] {
+    display: none;
+}
+
+/* Esconde todos os conjuntos de botões por padrão */
+.Mcarrossel-controles {
+    display: none;
+}
+
+/* Lógica de deslocamento das imagens usando :checked */
+#img-1:checked ~ .Mcarrossel-imagens { transform: translateX(0%); }
+#img-2:checked ~ .Mcarrossel-imagens { transform: translateX(-100%); }
+#img-3:checked ~ .Mcarrossel-imagens { transform: translateX(-200%); }
+
+/* Exibe apenas os botões referentes à imagem ativa */
+#img-1:checked ~ .controle-1 { display: block; }
+#img-2:checked ~ .controle-2 { display: block; }
+#img-3:checked ~ .controle-3 { display: block; }
+
+/* Estilização da bolinha ativa */
+#img-1:checked ~ .Mcarrossel-indicadores .ind-1,
+#img-2:checked ~ .Mcarrossel-indicadores .ind-2,
+#img-3:checked ~ .Mcarrossel-indicadores .ind-3 {
+    background-color: #F8FAFC;
+    transform: scale(1.2);
+}
     /*FIM*/
