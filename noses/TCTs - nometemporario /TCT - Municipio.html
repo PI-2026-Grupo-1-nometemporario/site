@@ -1,93 +1,176 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>TCTs - Municipio</title>
     <link rel="stylesheet" href="TCTs - Estilo CSS.css">
-  </head>
-  <body class="Mbody">
+</head>
 
-<main class="Mbody">
-    <!-- TÍTULO PRINCIPAL -->
-    <h1 class="Mtitle">TCTs em Toledo - PR: Direitos da Criança e do Adolescente</h1>
+<body class="Mbody">
 
-    <!-- INTRODUÇÃO -->
-    <section class="Msection">
-        <p class="Mtexts">
-            No município de Toledo (PR), o Tema Contemporâneo Transversal (TCT) voltado aos 
-            <strong class="Mstrong">Direitos da Criança e do Adolescente</strong> — pertencente à macroárea de 
-            <strong class="Mstrong">Cidadania e Civismo</strong> — é estruturado a partir da integração entre 
-            assistência social, educação, saúde e o Sistema de Garantia de Direitos. 
-            A cidade destaca-se por oferecer uma rede contínua de proteção, convivência comunitária 
-            e desenvolvimento social voltada à primeira infância, crianças e adolescentes.
-        </p>
-    </section>
+    <main class="Mbody">
+        <!-- TÍTULO PRINCIPAL -->
+        <h1 class="Mtitle">TCTs em Toledo - PR: Direitos da Criança e do Adolescente</h1>
+<section class="Mcarrossel" aria-label="Imagens sobre a proteção da criança e do adolescente">
+    <!-- Controles de estado sem JS -->
+    <input type="radio" name="carrossel-control" id="img-1" checked>
+    <input type="radio" name="carrossel-control" id="img-2">
+    <input type="radio" name="carrossel-control" id="img-3">
 
-    <!-- PROGRAMAS LOCAIS COM FIGURE / FIGCAPTION -->
-    <section class="Msection">
-        <h2 class="Mtitle">Principais Ações e Programas Locais</h2>
-        
-        <figure style="margin: 0 0 2% 0;">
-            <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/florir_toledo_0.jpg" alt="Adolescente participante do Programa Florir Toledo no horto municipal" style="width: 50vw; border-radius: 10px; margin-top: 2%;">
-            <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Programa Florir Toledo / Prefeitura de Toledo</figcaption>
-        </figure>
+    <div class="Mcarrossel-imagens">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAr1NPHFu4NBRHr65Z63ElrZ2yO-T1IRxLsjWcF8_QPwCQSaAF7w_NMiK6&s=10" alt="Proteção, carinho e acolhimento das crianças">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfPyCM7NAf54skgsN5vmV8gt-ZlpZNOH438gsuiUTmQ&s=10" alt="Crianças e adolescentes unidos por um futuro melhor">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6YWPgnZVbha0JEiQEdeks9_I8lqsOe44m2_NKLUHZA&s=10" alt="Estatuto da Criança e do Adolescente e garantia de direitos">
+    </div>
 
-        <ul>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">Programa Florir Toledo:</strong> Projeto direcionado a adolescentes de 13 a 17 anos em situação de vulnerabilidade social. Integra capacitação ambiental, atividades culturais, acompanhamento pedagógico, fortalecimento de vínculos familiares e concessão de bolsa-auxílio.
-            </li>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">Serviços de Convivência e Fortalecimento de Vínculos (SCFV / Unidades Sociais):</strong> Oferecem atividades artísticas, esportivas e recreativas no contraturno escolar em diversos bairros, atuando diretamente na prevenção de riscos sociais.
-            </li>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">Plano Municipal pela Primeira Infância e Reconhecimentos:</strong> Toledo adota diretrizes e planos decenais contínuos para a garantia dos direitos do Estatuto da Criança e do Adolescente (ECA), sendo referência em investimento social e proteção infantil.
-            </li>
-        </ul>
-    </section>
+    <!-- Botões "Anterior" e "Próximo" acoplados aos inputs via label -->
+    <div class="Mcarrossel-controles controle-1">
+        <label for="img-3" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-2" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
+    <div class="Mcarrossel-controles controle-2">
+        <label for="img-1" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-3" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
+    <div class="Mcarrossel-controles controle-3">
+        <label for="img-2" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-1" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
 
-    <!-- REDE DE PROTEÇÃO COM FIGURE / FIGCAPTION -->
-    <section class="Msection">
-        <h2 class="Mtitle">Rede de Proteção e Controle Social</h2>
-        <p class="Mtexts">A execução e o acompanhamento das políticas públicas no município contam com instâncias decisivas:</p>
-        
-        <figure style="margin: 0 0 2% 0;">
-            <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/whatsapp_image_2025-08-30_at_16.27.54_1_0.jpeg" alt="Encontro de famílias e comunidade no ginásio municipal em Toledo" style="width: 50vw; border-radius: 10px; margin-top: -1% ">
-            <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Encontro comunitário de fortalecimento de vínculos em Toledo</figcaption>
-        </figure>
+    <!-- Indicadores (bolinhas) acoplados aos inputs -->
+    <div class="Mcarrossel-indicadores">
+        <label for="img-1" class="Mindicador ind-1"></label>
+        <label for="img-2" class="Mindicador ind-2"></label>
+        <label for="img-3" class="Mindicador ind-3"></label>
+    </div>
+</section>
 
-        <ol>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">CMDCA (Conselho Municipal dos Direitos da Criança e do Adolescente):</strong> Responsável pela deliberação das políticas sociais, gestão do Fundo Municipal da Infância (FIA) e apoio a entidades governamentais e não-governamentais.
-            </li>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">Conselhos Tutelares (Unidades I e II):</strong> Atuam diretamente na garantia dos direitos e no atendimento de denúncias de violações na sede do município e distritos.
-            </li>
-            <li class="Mli Mtexts">
-                <strong class="Mstrong">Campanhas Permanentes de Conscientização:</strong> Ações como a Campanha Faça Bonito (combate ao abuso e exploração sexual) com mobilizações em praças, parques e escolas.
-            </li>
-        </ol>
-    </section>
+            <button class="Mcarrossel-btn Manterior" type="button" aria-label="Imagem anterior">
+                &#10094;
+            </button>
 
-    <!-- LINKS DE NAVEGAÇÃO E REFERÊNCIAS -->
-    <section class="Msection Msecionadores">
-        <h2 class="Mtitle" style="margin-left: 5%;">Mídias e Fontes Oficiais</h2>
-        <p class="Mtexts" style="margin-left: 5%; color: rgb(3, 36, 79); ">Acesse os canais para mais informações e validação das ações:</p>
-        <p>
-            <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/portais/programas/florir-toledo" target="_blank" rel="noopener noreferrer">
-                Programa Florir Toledo
-            </a>
-        </p>
-        <p>
-            <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/conselhos/cmdca" target="_blank" rel="noopener noreferrer">
-                CMDCA de Toledo
-            </a>
-        </p>
-        <p>
-            <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/noticias/tag/cmdca" target="_blank" rel="noopener noreferrer">
-                Notícias sobre Proteção à Infância
-            </a>
-        </p>
-    </section>
-</main>
-  </body>
+            <button class="Mcarrossel-btn Mproximo" type="button" aria-label="Próxima imagem">
+                &#10095;
+            </button>
+
+            <div class="Mcarrossel-indicadores">
+                <button type="button" class="Mindicador ativo" aria-label="Mostrar imagem 1"></button>
+                <button type="button" class="Mindicador" aria-label="Mostrar imagem 2"></button>
+                <button type="button" class="Mindicador" aria-label="Mostrar imagem 3"></button>
+            </div>
+        </section>
+
+        <!-- INTRODUÇÃO -->
+        <section class="Msection">
+            <p class="Mtexts">
+                No município de Toledo (PR), o Tema Contemporâneo Transversal (TCT) voltado aos
+                <strong class="Mstrong">Direitos da Criança e do Adolescente</strong> — pertencente à macroárea de
+                <strong class="Mstrong">Cidadania e Civismo</strong> — é estruturado a partir da integração entre
+                assistência social, educação, saúde e o Sistema de Garantia de Direitos.
+                A cidade destaca-se por oferecer uma rede contínua de proteção, convivência comunitária
+                e desenvolvimento social voltada à primeira infância, crianças e adolescentes.
+            </p>
+        </section>
+
+        <!-- PROGRAMAS LOCAIS COM FIGURE / FIGCAPTION -->
+        <section class="Msection">
+            <h2 class="Mtitle">Principais Ações e Programas Locais</h2>
+
+            <figure style="margin: 0 0 2% 0;">
+                <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/florir_toledo_0.jpg"
+                    alt="Adolescente participante do Programa Florir Toledo no horto municipal"
+                    style="width: 50vw; border-radius: 10px; margin-top: 2%;">
+                <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Programa Florir Toledo /
+                    Prefeitura de Toledo</figcaption>
+            </figure>
+
+            <ul>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Programa Florir Toledo:</strong> Projeto direcionado a adolescentes de 13 a
+                    17 anos em situação de vulnerabilidade social. Integra capacitação ambiental, atividades culturais,
+                    acompanhamento pedagógico, fortalecimento de vínculos familiares e concessão de bolsa-auxílio.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Serviços de Convivência e Fortalecimento de Vínculos (SCFV / Unidades
+                        Sociais):</strong> Oferecem atividades artísticas, esportivas e recreativas no contraturno
+                    escolar em diversos bairros, atuando diretamente na prevenção de riscos sociais.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Plano Municipal pela Primeira Infância e Reconhecimentos:</strong> Toledo
+                    adota diretrizes e planos decenais contínuos para a garantia dos direitos do Estatuto da Criança e
+                    do Adolescente (ECA), sendo referência em investimento social e proteção infantil.
+                </li>
+            </ul>
+        </section>
+
+        <!-- REDE DE PROTEÇÃO COM FIGURE / FIGCAPTION -->
+        <section class="Msection">
+            <h2 class="Mtitle">Rede de Proteção e Controle Social</h2>
+            <p class="Mtexts">A execução e o acompanhamento das políticas públicas no município contam com instâncias
+                decisivas:</p>
+
+            <figure style="margin: 0 0 2% 0;">
+                <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/whatsapp_image_2025-08-30_at_16.27.54_1_0.jpeg"
+                    alt="Encontro de famílias e comunidade no ginásio municipal em Toledo"
+                    style="width: 50vw; border-radius: 10px; margin-top: -1% ">
+                <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Encontro comunitário de
+                    fortalecimento de vínculos em Toledo</figcaption>
+            </figure>
+
+            <ol>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">CMDCA (Conselho Municipal dos Direitos da Criança e do
+                        Adolescente):</strong> Responsável pela deliberação das políticas sociais, gestão do Fundo
+                    Municipal da Infância (FIA) e apoio a entidades governamentais e não-governamentais.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Conselhos Tutelares (Unidades I e II):</strong> Atuam diretamente na
+                    garantia dos direitos e no atendimento de denúncias de violações na sede do município e distritos.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Campanhas Permanentes de Conscientização:</strong> Ações como a Campanha
+                    Faça Bonito (combate ao abuso e exploração sexual) com mobilizações em praças, parques e escolas.
+                </li>
+            </ol>
+        </section>
+
+        <!-- LINKS DE NAVEGAÇÃO E REFERÊNCIAS -->
+        <section class="Msection Msecionadores">
+            <h2 class="Mtitle" style="margin-left: 5%;">Mídias e Fontes Oficiais</h2>
+            <p class="Mtexts" style="margin-left: 5%; color: rgb(3, 36, 79); ">Acesse os canais para mais informações e
+                validação das ações:</p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/portais/programas/florir-toledo"
+                    target="_blank" rel="noopener noreferrer">
+                    Programa Florir Toledo
+                </a>
+            </p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/conselhos/cmdca" target="_blank"
+                    rel="noopener noreferrer">
+                    CMDCA de Toledo
+                </a>
+            </p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/noticias/tag/cmdca" target="_blank"
+                    rel="noopener noreferrer">
+                    Notícias sobre Proteção à Infância
+                </a>
+            </p>
+            <a class="Mtexts" style="color: rgb(3, 36, 79); margin-left: 5%; margin-right: 5%;">Vídeo sobre os direitos básicos da criança e do adolescente</a>
+            <iframe 
+  style="display: block; margin: auto; border-radius: 20px;" 
+  width="560" 
+  height="315" 
+  src="https://www.youtube-nocookie.com/embed/dnkATPxQ3Bs" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+        </section>
+    </main>
+</body>
+
 </html>
