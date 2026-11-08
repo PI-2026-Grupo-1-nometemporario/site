@@ -1,56 +1,68 @@
-/*RAFAEL BREMM MEYER*/
-.Mbody{
+/* ==========================================================================
+   ESTILOS - RAFAEL BREMM MEYER
+   ========================================================================== */
+
+.Mbody {
     margin-left: 15%;
     margin-right: 15%;
     background-color: #0F172A; 
-     font-family: 'Inter', sans-serif; 
-     line-height: 1.6;
-    }
-    .Mtitle{
-        font-family: 'Space Grotesk', sans-serif;
-        color:#F8FAFC;
-        font-size: 250%;
-        font-weight: 700;
-        border-bottom: 2px solid white;
-    }
-    .Mtexts{
-        color: #94A3B8;
-        font-size: 200%;
-  text-align: justify;
-    }
-    .Mcomment{
-        color: gray;
-        text-align: right;
-        margin-top: -2%;
-        font-size: 110%;
-          font-family: 'Inter', sans-serif;
-      font-style: italic;
-    }
-    .Msection{
-        margin-bottom: 6%;
-    }
-    .Mli{
-        margin-bottom: 2%;
-    }
-    .Mstrong{
-        color: #c8d8ef;
-    }
-    .Msecionadores{
+    font-family: 'Inter', sans-serif; 
+    line-height: 1.6;
+}
+
+.Mtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F8FAFC;
+    font-size: 250%;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+}
+
+.Mtexts {
+    color: #94A3B8;
+    font-size: 200%;
+    text-align: justify; /* Alinhamento mantido da última versão */
+}
+
+.Mcomment {
+    color: gray;
+    text-align: right;
+    margin-top: -2%;
+    font-size: 110%;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+.Msection {
+    margin-bottom: 6%;
+}
+
+.Mli {
+    margin-bottom: 2%;
+}
+
+.Mstrong {
+    color: #c8d8ef;
+}
+
+.Msecionadores {
     border: 2px solid black;
     background-color: rgb(159, 158, 158);
     margin-top: 2%;
     border-radius: 15px;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
-    }
-    .Mdirecionador{
+}
+
+.Mdirecionador {
     color: #0F172A;
     margin-left: 5%;
     border: 1px black;
     background-color: whitesmoke;
     padding: 0.3%;
     border-radius: 10px;
-    }
+}
+
 /* CARROSSEL DE IMAGENS */
 .Mcarrossel {
     position: relative;
@@ -156,31 +168,3 @@
         bottom: 10px;
     }
 }
-/* Esconde os radio inputs */
-.Mcarrossel input[type="radio"] {
-    display: none;
-}
-
-/* Esconde todos os conjuntos de botões por padrão */
-.Mcarrossel-controles {
-    display: none;
-}
-
-/* Lógica de deslocamento das imagens usando :checked */
-#img-1:checked ~ .Mcarrossel-imagens { transform: translateX(0%); }
-#img-2:checked ~ .Mcarrossel-imagens { transform: translateX(-100%); }
-#img-3:checked ~ .Mcarrossel-imagens { transform: translateX(-200%); }
-
-/* Exibe apenas os botões referentes à imagem ativa */
-#img-1:checked ~ .controle-1 { display: block; }
-#img-2:checked ~ .controle-2 { display: block; }
-#img-3:checked ~ .controle-3 { display: block; }
-
-/* Estilização da bolinha ativa */
-#img-1:checked ~ .Mcarrossel-indicadores .ind-1,
-#img-2:checked ~ .Mcarrossel-indicadores .ind-2,
-#img-3:checked ~ .Mcarrossel-indicadores .ind-3 {
-    background-color: #F8FAFC;
-    transform: scale(1.2);
-}
-    /*FIM*/

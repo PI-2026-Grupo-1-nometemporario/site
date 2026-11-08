@@ -1,1 +1,400 @@
+<--LUCCA HILLEBRAND CARRARO-->
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cod.CSS">
+</head>
+
+<body class="Mbody">
+    <p class="Mcomment" style="margin-top: 1%; text-align: left; margin-bottom: -1%;">Indicadores de la Página:</p>
+    <div class="Msecionadores">
+        <a href="#2" class="Mdirecionador">Trayectoria Escolar</a>
+        <a href="#3" class="Mdirecionador">Hecho Histórico</a>
+        <a href="#4" class="Mdirecionador">Momento Actual</a>
+        <a href="#5" class="Mdirecionador">Perspectivas Futuras</a>
+        <a href="#6" class="Mdirecionador">Municipio</a>
+        <a href="#7" class="Mdirecionador">Barrio</a>
+    </div>
+    <h1 class="Mtitle" style="border-bottom: none; text-align: center;"><strong>INTEGRANTE:</strong> Lucca Hillebrand
+        Carraro
+    </h1>
+    <!--Nacimiento-->
+    <section id="1" class="Msection">
+        <h1 class="Mtitle">Nacimiento (perspectiva de un familiar):</h1>
+        <p class="Mtexts">"El día de su nacimiento, recuerdo que estaba nervioso, aunque ya era mi segundo hijo, porque
+            siempre es una nueva vida que llega al mundo, un hijo mío. Estaba muy feliz durante el parto. Tenerlo en
+            mis brazos fue algo muy bonito. Era un hermano para mi otro hijo, así tendría alguien con quien jugar en
+            casa."</p>
+        <p class="Mcomment"> André Carraro, padre de Lucca.</p>
+    </section>
+    <section class="Msection">
+        <h1 id="2" class="Mtitle">Trayectoria Escolar</h1>
+        <p class="Mtexts">Lucca siempre fue un chico al que le gustaba ir a la escuela para jugar, al menos hasta la
+            educación primaria. Comenzó sus estudios en la Escuela Municipal Doutor Borges de Medeiros, donde hizo
+            varios amigos y siempre tuvo un buen rendimiento escolar. Después pasó a la Escuela Municipal Arsênio
+            Heiss, donde cursó solamente el quinto año, conociendo a más personas y alejándose de otras. La mayor parte
+            de la educación secundaria la estudió en el Colegio Adventista de Toledo, donde más evolucionó mental y
+            físicamente gracias a los deportes que practicaba. También se alejó de personas que consideró que no eran
+            buenas para su camino. Luego ingresó al Instituto Federal, donde sabía que construiría el mejor futuro
+            posible.</p>
+    </section>
+    <section class="Msection">
+        <h1 id="3" class="Mtitle">Hecho Histórico</h1>
+        <ul class="Mtexts">
+            <li class="Mli"><strong class="Mstrong">Fecha de nacimiento:</strong> 12 de enero de 2011.</li>
+            <li class="Mli"><strong class="Mstrong">Hecho histórico cercano:</strong> El 12 de enero de 2011, la Región
+                Serrana de Río de Janeiro fue afectada por lluvias torrenciales extremas que provocaron uno de los
+                mayores desastres naturales de la historia de Brasil. Los deslizamientos de tierra y las inundaciones
+                repentinas devastaron ciudades como Nova Friburgo, Teresópolis y Petrópolis, causando la muerte de más
+                de 900 personas y dejando a miles sin hogar. Este acontecimiento también impulsó la reformulación de
+                las políticas nacionales de gestión y prevención de desastres.
+        </ul>
+    </section>
+    <section id="4" class="Msection">
+        <h1 class="Mtitle">Momento Actual</h1>
+        <p class="Mtexts">Estando en el Instituto Federal, veo cuánto son necesarios los estudios para garantizar un
+            buen futuro. Siento que mi visión del mundo y mis opiniones en general han madurado mucho gracias al IF.
+        </p>
+    </section>
+    <section id="5" class="Msection">
+        <h1 class="Mtitle">Perspectivas Futuras</h1>
+        <p class="Mtexts">Mi idea y mi sueño para el futuro son convertirme en bombero, estudiar Educación Física y
+            después realizar un concurso público para ingresar al cuerpo de bomberos. Eso es lo que me gustaría hacer,
+            pero ¿y si no sale bien? Buscaría otra oportunidad en el área de la Psicología.</p>
+    </section>
+    <h1 id="6" class="Mtitle">Municipio: Toledo - PR</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Historia y Geografía: Fundado en la década de 1950 mediante el poblamiento promovido por
+            inmigrantes procedentes principalmente de los estados de Rio Grande do Sul y Santa Catarina, el municipio
+            se destaca en el oeste de Paraná como uno de los principales referentes de la producción alimentaria y del
+            sector agropecuario nacional.</li>
+        <li class="Mli">Cultura y Curiosidades: Toledo tiene reconocimiento nacional con el título de "Capital del
+            Agronegocio" y es famosa por la celebración de la tradicional Fiesta Nacional del Cerdo Asado en el
+            Espeto. La ciudad también alberga el Parque Ecológico Diva Paim Barth, ubicado en su zona central y
+            consolidado como uno de los principales espacios de ocio de sus habitantes.</li>
+    </ul>
+    <h1 id="7" class="Mtitle">Barrio: Jardim Gisela</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Historia del Lugar: Jardim Gisela se consolidó como uno de los barrios pioneros y más
+            tradicionales del crecimiento urbano del municipio. Surgió a partir de la expansión residencial de la
+            ciudad durante las últimas décadas y acompañó el desarrollo de Toledo, manteniendo un perfil acogedor,
+            familiar y fuertemente comunitario.
+        </li>
+        <li class="Mli">Características y Aspectos Destacados: Jardim Gisela es una zona predominantemente
+            residencial, arbolada y con una excelente infraestructura en Toledo. Se destaca por albergar importantes
+            instituciones educativas, como la Pontificia Universidad Católica de Paraná (PUCPR - Campus Toledo),
+            además de contar con un comercio local bien estructurado, diversos servicios y un rápido acceso al centro
+            y al Parque Ecológico Diva Paim Barth.</li>
+    </ul>
+</body>
+
+</html>
+<--RAFAEL BREMM MEYER-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOBRE MÍ - RAFAEL B. MEYER</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body class="Mbody">
+    <!--Secciones de la página-->
+    <p class="Mcomment" style="margin-top: 1%; text-align: left; margin-bottom: -1%;">Indicadores de la Página:</p>
+    <div class="Msecionadores">
+        <a href="#1" class="Mdirecionador">Nacimiento (relato)</a>
+        <a href="#2" class="Mdirecionador">Trayectoria Escolar</a>
+        <a href="#3" class="Mdirecionador">Hecho Histórico</a>
+        <a href="#4" class="Mdirecionador">Momento Actual</a>
+        <a href="#5" class="Mdirecionador">Perspectivas Futuras</a>
+        <a href="#6" class="Mdirecionador">Municipio</a>
+        <a href="#7" class="Mdirecionador">Barrio</a>
+        <a href="#8" class="Mdirecionador">Vídeo</a>
+    </div>
+    <!--Título-->
+    <h1 class="Mtitle" style="border-bottom: none; text-align: center;"><strong>INTEGRANTE:</strong> Rafael Bremm Meyer
+    </h1>
+    <!--Nacimiento-->
+    <section id="1" class="Msection">
+        <h1 class="Mtitle">Nacimiento (perspectiva de un familiar):</h1>
+        <p class="Mtexts">"Nunca olvidaré aquella madrugada de lluvia fina del 14 de mayo de 2011. Cuando tomé a
+            Rafael en mis brazos por primera vez en la maternidad, tenía los ojos bien abiertos, como si ya quisiera
+            entender todo lo que sucedía a su alrededor. Desde pequeño, mi hijo siempre fue un niño tranquilo, pero
+            extremadamente curioso: prefería desmontar sus propios juguetes para ver cómo funcionaban por dentro en
+            lugar de simplemente jugar con ellos. Ver a ese pequeño crecer y convertirse en un joven tan dedicado es
+            uno de los mayores orgullos de mi vida."</p>
+        <p class="Mcomment">— Testimonio de Maria Helena Bremm Meyer, madre de Rafael.</p>
+    </section>
+
+    <!--Trayectoria Escolar-->
+    <section class="Msection">
+        <h1 id="2" class="Mtitle">Trayectoria Escolar</h1>
+        <p class="Mtexts">La trayectoria escolar de Rafael comenzó en la educación infantil, donde pronto se destacó
+            por su gusto por las historias, los dibujos y los juegos de lógica. Durante la Educación Primaria, su
+            afinidad por las matemáticas y la tecnología se hizo evidente. Actualmente, en la Educación Secundaria
+            (9.º grado), Rafael se ha dedicado a los estudios preparatorios para la Educación Media, combinando las
+            asignaturas tradicionales con sus primeros proyectos de robótica e informática en la escuela.</p>
+    </section>
+
+    <!--Hecho Histórico-->
+    <section class="Msection">
+        <h1 id="3" class="Mtitle">Hecho Histórico</h1>
+        <ul class="Mtexts">
+            <li class="Mli"><strong class="Mstrong">Fecha de Nacimiento:</strong> 14 de mayo de 2011.</li>
+            <li class="Mli"><strong class="Mstrong">Hecho Histórico Cercano:</strong> El 16 de mayo de 2011, el
+                transbordador espacial Endeavour despegó para realizar su 25.ª y última misión espacial (STS-134),
+                transportando el Espectrómetro Magnético Alfa a la Estación Espacial Internacional (ISS).</li>
+            <li class="Mli"><strong class="Mstrong">Contextualización:</strong> El año 2011 marcó el final de la era
+                de los transbordadores espaciales de la NASA después de 30 años de programa, simbolizando la
+                transición hacia una nueva era de exploración espacial y de avances en la ciencia y la tecnología
+                de la información.</li>
+        </ul>
+    </section>
+
+    <!--Momento Actual-->
+    <section id="4" class="Msection">
+        <h1 class="Mtitle">Momento Actual</h1>
+        <p class="Mtexts">Actualmente, veo el final de la Educación Secundaria como una etapa importante de
+            transición y maduración. La rutina exige más concentración y organización para poder cumplir con las
+            asignaturas, pero siento que estoy construyendo una base sólida para los desafíos que vendrán en la
+            siguiente etapa.</p>
+    </section>
+
+    <!--Perspectivas Futuras-->
+    <section id="5" class="Msection">
+        <h1 class="Mtitle">Perspectivas Futuras</h1>
+        <p class="Mtexts">No tengo planes de cursar una carrera universitaria tradicional; en cambio, pretendo
+            centrarme en el aprendizaje autodidacta, cursos prácticos y certificaciones en el área de programación
+            y desarrollo de software. Mi gran objetivo es dominar idiomas y tecnologías para construir una carrera
+            sólida trabajando de forma remota como programador para empresas del extranjero.</p>
+    </section>
+
+    <!--Municipio-->
+    <h1 id="6" class="Mtitle">Municipio: Toledo - PR</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Historia y Geografía: Fundado en la década de 1950 por colonizadores procedentes principalmente
+            de Rio Grande do Sul y Santa Catarina, Toledo se destaca en la región oeste de Paraná como uno de los
+            mayores centros del agronegocio y de la producción de alimentos del país.</li>
+        <li class="Mli">Cultura y Curiosidades: Toledo es conocida nacionalmente como la "Capital del Agronegocio"
+            y se destaca por la tradicional Fiesta Nacional del Cerdo Asado en el Espeto. Además, cuenta con el
+            Parque Ecológico Diva Paim Barth en el centro de la ciudad, uno de los principales lugares de ocio
+            de la población.</li>
+    </ul>
+
+    <!--Barrio/Línea-->
+    <h1 id="7" class="Mtitle">Barrio: Vila Industrial</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Características y Aspectos Destacados: Vila Industrial es uno de los barrios más poblados,
+            dinámicos y tradicionales de Toledo. Se destaca por ser una región con una fuerte presencia del comercio
+            local, industrias y prestación de servicios, además de albergar importantes instalaciones deportivas y
+            de ocio del municipio.
+        </li>
+        <li class="Mli">Historia del Lugar: El barrio tuvo un papel fundamental en el desarrollo económico del
+            municipio, surgiendo para albergar a los trabajadores y las primeras estructuras productivas de la ciudad.
+            Con el paso de las décadas, se transformó en una comunidad completa y dinámica, manteniendo viva la esencia
+            trabajadora y acogedora de Toledo.</li>
+    </ul>
+
+    <!--Vídeo-->
+    <h1 id="8" class="Mtitle" style="margin-top: 5%;">Vídeo</h1>
+    <iframe style="display: block;margin: auto; margin-top: 5%; border-radius: 20px; border: 1px solid red;" 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/kL1PDqzqhM4?si=3HhEkD9FoRfoK_9R" 
+  title="Reproductor de vídeo de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+</body>
+
+</html>
+<--SITE TCT -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>TCTs - Municipio</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body class="Mbody">
+
+    <main class="Mbody">
+        <!-- TÍTULO PRINCIPAL -->
+        <h1 class="Mtitle">TCTs en Toledo - PR: Derechos del Niño y del Adolescente</h1>
+<section class="Mcarrossel" aria-label="Imágenes sobre la protección del niño y del adolescente">
+    <!-- Controles de estado sin JS -->
+    <input type="radio" name="carrossel-control" id="img-1" checked>
+    <input type="radio" name="carrossel-control" id="img-2">
+    <input type="radio" name="carrossel-control" id="img-3">
+
+    <div class="Mcarrossel-imagens">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAr1NPHFu4NBRHr65Z63ElrZ2yO-T1IRxLsjWcF8_QPwCQSaAF7w_NMiK6&s=10" alt="Protección, cariño y acogida de los niños">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfPyCM7NAf54skgsN5vmV8gt-ZlpZNOH438gsuiUTmQ&s=10" alt="Niños y adolescentes unidos por un futuro mejor">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6YWPgnZVbha0JEiQEdeks9_I8lqsOe44m2_NKLUHZA&s=10" alt="Estatuto del Niño y del Adolescente y garantía de derechos">
+    </div>
+
+    <!-- Botones "Anterior" y "Siguiente" vinculados a los inputs mediante label -->
+    <div class="Mcarrossel-controles controle-1">
+        <label for="img-3" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-2" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
+    <div class="Mcarrossel-controles controle-2">
+        <label for="img-1" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-3" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
+    <div class="Mcarrossel-controles controle-3">
+        <label for="img-2" class="Mcarrossel-btn Manterior">&#10094;</label>
+        <label for="img-1" class="Mcarrossel-btn Mproximo">&#10095;</label>
+    </div>
+
+    <!-- Indicadores (puntos) vinculados a los inputs -->
+    <div class="Mcarrossel-indicadores">
+        <label for="img-1" class="Mindicador ind-1"></label>
+        <label for="img-2" class="Mindicador ind-2"></label>
+        <label for="img-3" class="Mindicador ind-3"></label>
+    </div>
+</section>
+
+            <button class="Mcarrossel-btn Manterior" type="button" aria-label="Imagen anterior">
+                &#10094;
+            </button>
+
+            <button class="Mcarrossel-btn Mproximo" type="button" aria-label="Siguiente imagen">
+                &#10095;
+            </button>
+
+            <div class="Mcarrossel-indicadores">
+                <button type="button" class="Mindicador ativo" aria-label="Mostrar imagen 1"></button>
+                <button type="button" class="Mindicador" aria-label="Mostrar imagen 2"></button>
+                <button type="button" class="Mindicador" aria-label="Mostrar imagen 3"></button>
+            </div>
+        </section>
+
+        <!-- INTRODUCCIÓN -->
+        <section class="Msection">
+            <p class="Mtexts">
+                En el municipio de Toledo (PR), el Tema Contemporáneo Transversal (TCT) orientado a los
+                <strong class="Mstrong">Derechos del Niño y del Adolescente</strong> — perteneciente al área temática de
+                <strong class="Mstrong">Ciudadanía y Civismo</strong> — se estructura a partir de la integración entre
+                asistencia social, educación, salud y el Sistema de Garantía de Derechos.
+                La ciudad se destaca por ofrecer una red continua de protección, convivencia comunitaria
+                y desarrollo social dirigida a la primera infancia, los niños y los adolescentes.
+            </p>
+        </section>
+
+        <!-- PROGRAMAS LOCALES CON FIGURE / FIGCAPTION -->
+        <section class="Msection">
+            <h2 class="Mtitle">Principales Acciones y Programas Locales</h2>
+
+            <figure style="margin: 0 0 2% 0;">
+                <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/florir_toledo_0.jpg"
+                    alt="Adolescente participante del Programa Florir Toledo en el vivero municipal"
+                    style="width: 50vw; border-radius: 10px; margin-top: 2%;">
+                <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Programa Florir Toledo /
+                    Municipalidad de Toledo</figcaption>
+            </figure>
+
+            <ul>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Programa Florir Toledo:</strong> Proyecto dirigido a adolescentes de 13 a
+                    17 años en situación de vulnerabilidad social. Integra capacitación ambiental, actividades culturales,
+                    acompañamiento pedagógico, fortalecimiento de los vínculos familiares y concesión de una ayuda
+                    económica.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Servicios de Convivencia y Fortalecimiento de Vínculos (SCFV / Unidades
+                        Sociales):</strong> Ofrecen actividades artísticas, deportivas y recreativas en horario
+                    extraescolar en diversos barrios, actuando directamente en la prevención de riesgos sociales.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Plan Municipal por la Primera Infancia y Reconocimientos:</strong> Toledo
+                    adopta directrices y planes decenales continuos para garantizar los derechos establecidos en el
+                    Estatuto del Niño y del Adolescente (ECA), siendo una referencia en inversión social y protección
+                    infantil.
+                </li>
+            </ul>
+        </section>
+
+        <!-- RED DE PROTECCIÓN CON FIGURE / FIGCAPTION -->
+        <section class="Msection">
+            <h2 class="Mtitle">Red de Protección y Control Social</h2>
+            <p class="Mtexts">La ejecución y el seguimiento de las políticas públicas en el municipio cuentan con
+                instancias decisivas:</p>
+
+            <figure style="margin: 0 0 2% 0;">
+                <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2025-08/whatsapp_image_2025-08-30_at_16.27.54_1_0.jpeg"
+                    alt="Encuentro de familias y comunidad en el gimnasio municipal de Toledo"
+                    style="width: 50vw; border-radius: 10px; margin-top: -1% ">
+                <figcaption class="Mcomment" style="margin-top: 0.5%; text-align: left;">Foto: Encuentro comunitario de
+                    fortalecimiento de vínculos en Toledo</figcaption>
+            </figure>
+
+            <ol>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">CMDCA (Consejo Municipal de los Derechos del Niño y del
+                        Adolescente):</strong> Responsable de deliberar sobre las políticas sociales, gestionar el Fondo
+                    Municipal de la Infancia (FIA) y apoyar a entidades gubernamentales y no gubernamentales.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Consejos Tutelares (Unidades I y II):</strong> Actúan directamente en la
+                    garantía de los derechos y en la atención de denuncias de violaciones en la sede del municipio y
+                    sus distritos.
+                </li>
+                <li class="Mli Mtexts">
+                    <strong class="Mstrong">Campañas Permanentes de Concientización:</strong> Acciones como la Campaña
+                    Faça Bonito (combate al abuso y la explotación sexual), con movilizaciones en plazas, parques y
+                    escuelas.
+                </li>
+            </ol>
+        </section>
+
+        <!-- ENLACES DE NAVEGACIÓN Y REFERENCIAS -->
+        <section class="Msection Msecionadores">
+            <h2 class="Mtitle" style="margin-left: 5%;">Medios y Fuentes Oficiales</h2>
+            <p class="Mtexts" style="margin-left: 5%; color: rgb(3, 36, 79); ">Accede a los canales para obtener más información y
+                verificar las acciones:</p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/portais/programas/florir-toledo"
+                    target="_blank" rel="noopener noreferrer">
+                    Programa Florir Toledo
+                </a>
+            </p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/conselhos/cmdca" target="_blank"
+                    rel="noopener noreferrer">
+                    CMDCA de Toledo
+                </a>
+            </p>
+            <p>
+                <a class="Mdirecionador" href="https://www.toledo.pr.gov.br/noticias/tag/cmdca" target="_blank"
+                    rel="noopener noreferrer">
+                    Noticias sobre Protección de la Infancia
+                </a>
+            </p>
+            <a class="Mtexts" style="color: rgb(3, 36, 79); margin-left: 5%; margin-right: 5%;">Vídeo sobre los derechos básicos del niño y del adolescente</a>
+            <iframe 
+  style="display: block; margin: auto; border-radius: 20px;" 
+  width="560" 
+  height="315" 
+  src="https://www.youtube-nocookie.com/embed/dnkATPxQ3Bs" 
+  title="Reproductor de vídeo de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+        </section>
+    </main>
+</body>
+
+</html>
