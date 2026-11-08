@@ -156,4 +156,31 @@
         bottom: 10px;
     }
 }
+/* Esconde os radio inputs */
+.Mcarrossel input[type="radio"] {
+    display: none;
+}
+
+/* Esconde todos os conjuntos de botões por padrão */
+.Mcarrossel-controles {
+    display: none;
+}
+
+/* Lógica de deslocamento das imagens usando :checked */
+#img-1:checked ~ .Mcarrossel-imagens { transform: translateX(0%); }
+#img-2:checked ~ .Mcarrossel-imagens { transform: translateX(-100%); }
+#img-3:checked ~ .Mcarrossel-imagens { transform: translateX(-200%); }
+
+/* Exibe apenas os botões referentes à imagem ativa */
+#img-1:checked ~ .controle-1 { display: block; }
+#img-2:checked ~ .controle-2 { display: block; }
+#img-3:checked ~ .controle-3 { display: block; }
+
+/* Estilização da bolinha ativa */
+#img-1:checked ~ .Mcarrossel-indicadores .ind-1,
+#img-2:checked ~ .Mcarrossel-indicadores .ind-2,
+#img-3:checked ~ .Mcarrossel-indicadores .ind-3 {
+    background-color: #F8FAFC;
+    transform: scale(1.2);
+}
     /*FIM*/
