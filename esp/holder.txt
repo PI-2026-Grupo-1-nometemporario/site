@@ -93,4 +93,126 @@
 </body>
 
 </html>
+<--RAFAEL BREMM MEYER-->
 
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOBRE MÍ - RAFAEL B. MEYER</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body class="Mbody">
+    <!--Secciones de la página-->
+    <p class="Mcomment" style="margin-top: 1%; text-align: left; margin-bottom: -1%;">Indicadores de la Página:</p>
+    <div class="Msecionadores">
+        <a href="#1" class="Mdirecionador">Nacimiento (relato)</a>
+        <a href="#2" class="Mdirecionador">Trayectoria Escolar</a>
+        <a href="#3" class="Mdirecionador">Hecho Histórico</a>
+        <a href="#4" class="Mdirecionador">Momento Actual</a>
+        <a href="#5" class="Mdirecionador">Perspectivas Futuras</a>
+        <a href="#6" class="Mdirecionador">Municipio</a>
+        <a href="#7" class="Mdirecionador">Barrio</a>
+        <a href="#8" class="Mdirecionador">Vídeo</a>
+    </div>
+    <!--Título-->
+    <h1 class="Mtitle" style="border-bottom: none; text-align: center;"><strong>INTEGRANTE:</strong> Rafael Bremm Meyer
+    </h1>
+    <!--Nacimiento-->
+    <section id="1" class="Msection">
+        <h1 class="Mtitle">Nacimiento (perspectiva de un familiar):</h1>
+        <p class="Mtexts">"Nunca olvidaré aquella madrugada de lluvia fina del 14 de mayo de 2011. Cuando tomé a
+            Rafael en mis brazos por primera vez en la maternidad, tenía los ojos bien abiertos, como si ya quisiera
+            entender todo lo que sucedía a su alrededor. Desde pequeño, mi hijo siempre fue un niño tranquilo, pero
+            extremadamente curioso: prefería desmontar sus propios juguetes para ver cómo funcionaban por dentro en
+            lugar de simplemente jugar con ellos. Ver a ese pequeño crecer y convertirse en un joven tan dedicado es
+            uno de los mayores orgullos de mi vida."</p>
+        <p class="Mcomment">— Testimonio de Maria Helena Bremm Meyer, madre de Rafael.</p>
+    </section>
+
+    <!--Trayectoria Escolar-->
+    <section class="Msection">
+        <h1 id="2" class="Mtitle">Trayectoria Escolar</h1>
+        <p class="Mtexts">La trayectoria escolar de Rafael comenzó en la educación infantil, donde pronto se destacó
+            por su gusto por las historias, los dibujos y los juegos de lógica. Durante la Educación Primaria, su
+            afinidad por las matemáticas y la tecnología se hizo evidente. Actualmente, en la Educación Secundaria
+            (9.º grado), Rafael se ha dedicado a los estudios preparatorios para la Educación Media, combinando las
+            asignaturas tradicionales con sus primeros proyectos de robótica e informática en la escuela.</p>
+    </section>
+
+    <!--Hecho Histórico-->
+    <section class="Msection">
+        <h1 id="3" class="Mtitle">Hecho Histórico</h1>
+        <ul class="Mtexts">
+            <li class="Mli"><strong class="Mstrong">Fecha de Nacimiento:</strong> 14 de mayo de 2011.</li>
+            <li class="Mli"><strong class="Mstrong">Hecho Histórico Cercano:</strong> El 16 de mayo de 2011, el
+                transbordador espacial Endeavour despegó para realizar su 25.ª y última misión espacial (STS-134),
+                transportando el Espectrómetro Magnético Alfa a la Estación Espacial Internacional (ISS).</li>
+            <li class="Mli"><strong class="Mstrong">Contextualización:</strong> El año 2011 marcó el final de la era
+                de los transbordadores espaciales de la NASA después de 30 años de programa, simbolizando la
+                transición hacia una nueva era de exploración espacial y de avances en la ciencia y la tecnología
+                de la información.</li>
+        </ul>
+    </section>
+
+    <!--Momento Actual-->
+    <section id="4" class="Msection">
+        <h1 class="Mtitle">Momento Actual</h1>
+        <p class="Mtexts">Actualmente, veo el final de la Educación Secundaria como una etapa importante de
+            transición y maduración. La rutina exige más concentración y organización para poder cumplir con las
+            asignaturas, pero siento que estoy construyendo una base sólida para los desafíos que vendrán en la
+            siguiente etapa.</p>
+    </section>
+
+    <!--Perspectivas Futuras-->
+    <section id="5" class="Msection">
+        <h1 class="Mtitle">Perspectivas Futuras</h1>
+        <p class="Mtexts">No tengo planes de cursar una carrera universitaria tradicional; en cambio, pretendo
+            centrarme en el aprendizaje autodidacta, cursos prácticos y certificaciones en el área de programación
+            y desarrollo de software. Mi gran objetivo es dominar idiomas y tecnologías para construir una carrera
+            sólida trabajando de forma remota como programador para empresas del extranjero.</p>
+    </section>
+
+    <!--Municipio-->
+    <h1 id="6" class="Mtitle">Municipio: Toledo - PR</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Historia y Geografía: Fundado en la década de 1950 por colonizadores procedentes principalmente
+            de Rio Grande do Sul y Santa Catarina, Toledo se destaca en la región oeste de Paraná como uno de los
+            mayores centros del agronegocio y de la producción de alimentos del país.</li>
+        <li class="Mli">Cultura y Curiosidades: Toledo es conocida nacionalmente como la "Capital del Agronegocio"
+            y se destaca por la tradicional Fiesta Nacional del Cerdo Asado en el Espeto. Además, cuenta con el
+            Parque Ecológico Diva Paim Barth en el centro de la ciudad, uno de los principales lugares de ocio
+            de la población.</li>
+    </ul>
+
+    <!--Barrio/Línea-->
+    <h1 id="7" class="Mtitle">Barrio: Vila Industrial</h1>
+    <ul class="Mtexts">
+        <li class="Mli">Características y Aspectos Destacados: Vila Industrial es uno de los barrios más poblados,
+            dinámicos y tradicionales de Toledo. Se destaca por ser una región con una fuerte presencia del comercio
+            local, industrias y prestación de servicios, además de albergar importantes instalaciones deportivas y
+            de ocio del municipio.
+        </li>
+        <li class="Mli">Historia del Lugar: El barrio tuvo un papel fundamental en el desarrollo económico del
+            municipio, surgiendo para albergar a los trabajadores y las primeras estructuras productivas de la ciudad.
+            Con el paso de las décadas, se transformó en una comunidad completa y dinámica, manteniendo viva la esencia
+            trabajadora y acogedora de Toledo.</li>
+    </ul>
+
+    <!--Vídeo-->
+    <h1 id="8" class="Mtitle" style="margin-top: 5%;">Vídeo</h1>
+    <iframe style="display: block;margin: auto; margin-top: 5%; border-radius: 20px; border: 1px solid red;" 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/kL1PDqzqhM4?si=3HhEkD9FoRfoK_9R" 
+  title="Reproductor de vídeo de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+</body>
+
+</html>
