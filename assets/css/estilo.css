@@ -1,31 +1,36 @@
 /* ==========================================================================
    ESTILOS - RAFAEL BREMM MEYER
    ========================================================================== */
+:root{
+    --corfundo:#0F172A;
+    --cortitle: #F8FAFC;
+    --cortext: #94A3B8;
+}
 
 .Mbody {
     margin-left: 15%;
     margin-right: 15%;
-    background-color: #0F172A; 
+    background-color: var(--corfundo); 
     font-family: 'Inter', sans-serif; 
     line-height: 1.6;
 }
 
 .Mtitle {
     font-family: 'Space Grotesk', sans-serif;
-    color: #F8FAFC;
+    color: var(--cortitle);
     font-size: 250%;
     font-weight: 700;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--cortitle);
 }
 
 .Mtexts {
-    color: #94A3B8;
+    color: var(--cortext);
     font-size: 200%;
     text-align: justify; /* Alinhamento mantido da última versão */
 }
 
 .Mcomment {
-    color: gray;
+    color: var(--cortext);
     text-align: right;
     margin-top: -2%;
     font-size: 110%;
@@ -42,7 +47,7 @@
 }
 
 .Mstrong {
-    color: #c8d8ef;
+    color: var(--cortitle);
 }
 
 .Msecionadores {
@@ -167,4 +172,8 @@
     .Mcarrossel-indicadores {
         bottom: 10px;
     }
+}
+button:hover{
+    background-color: black;
+    color: white;
 }
